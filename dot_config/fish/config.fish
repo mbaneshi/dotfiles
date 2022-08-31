@@ -5,3 +5,4 @@ end
 
 #Abrevuatio
 abbr z 'clear'
+abbr e 'nvim'
