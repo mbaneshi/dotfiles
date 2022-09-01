@@ -6,3 +6,8 @@ end
 #Abrevuatio
 abbr z 'clear'
 abbr e 'nvim'
+
+
+#
+set -gx LDFLAGS "-L/usr/local/opt/llvm/lib"
+  set -gx CPPFLAGS "-I/usr/local/opt/llvm/include"
