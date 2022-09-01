@@ -6,4 +6,3 @@ end
 #Abrevuatio
 abbr z 'clear'
 abbr e 'nvim'
-abbr python 'python3'
