@@ -59,6 +59,25 @@ colors:
     white: '0x5f8787'
 theme: Moonlight-II-VSCode
 
+
+scrolling:
+  # Maximum number of lines in the scrollback buffer.
+  # Specifying '0' will disable scrolling.
+  history: 5000
+draw_bold_text_with_bright_colors: true
+
+  #cursor:
+  # Cursor style
+  #
+  # Values for `style`:
+  #   - ▇ Block
+  #   - _ underlined
+  #
+  #
+    #-  Beam
+  #style: Block
+
+
 # Import additional configuration files
 #
 # Imports are loaded in order, skipping all missing files, with the importing
