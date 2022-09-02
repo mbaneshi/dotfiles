@@ -6,7 +6,9 @@ end
 #Abrevuatio
 abbr z 'clear'
 abbr e 'nvim'
-
+abbr ch "chezmoi"
+abbr vi 'nvim'
+abbr vim 'nvim'
 
 #
 set -gx LDFLAGS "-L/usr/local/opt/llvm/lib"
