@@ -167,14 +167,14 @@ dynamic_title: true
 # Commonly supported values are `dark` and `light`. Set this to `None` to use
 # the default theme variant.
 #decorations_theme_variant: None
-scrolling:
- Maximum number of lines in the scrollback buffer.
+#scrolling:100
+#Maximum number of lines in the scrollback buffer.
 # Specifying '0' will disable scrolling.
 history: 100000
 # Scrolling distance multiplier.
 multiplier: 3
 # Font configuration
-font:
+#font:
 # Normal (roman) font face
 #normal:
 # Font family
@@ -214,7 +214,7 @@ font:
 # The `style` can be specified to pick a specific face.
 #style: Bold Italic
 # Point size
-size: 14.0
+#size: 14.0
 # Offset is the extra space around each character. `offset.y` can be thought
 # of as modifying the line spacing, and `offset.x` as modifying the letter
 # spacing.
