@@ -5,8 +5,8 @@
 add_newline = true
 
 # Replace the "❯" symbol in the prompt with "➜"
-[character] # The name of the module we are configuring is "character"
-success_symbol = "[➜](bold green)" # The "success_symbol" segment is being set to "➜" with the color "bold green"
+#[character] # The name of the module we are configuring is "character"
+#success_symbol = "[➜](bold green)" # The "success_symbol" segment is being set to "➜" with the color "bold green"
 
 # Disable the package module, hiding it from the prompt completely
 [package]
@@ -15,6 +15,7 @@ add_newline = true
 
 [character]
 vicmd_symbol = "[█](bold yellow) "
+success_symbol = "[➜](bold green)" # The "success_symbol" segment is being set to "➜" with the color "bold green"
 error_symbol = "[█](bold red) "
 format = """
 [╔══════════════════════════════════════$symbol](fg:#CC59B0)
@@ -86,6 +87,4 @@ symbol = "[⬢](bold green) "
 style = "bold green"
 symbol = "👩💻 "
 disabled = false
-Histre logo
-histre
 
