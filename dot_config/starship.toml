@@ -9,10 +9,7 @@ add_newline = true
 #success_symbol = "[➜](bold green)" # The "success_symbol" segment is being set to "➜" with the color "bold green"
 
 # Disable the package module, hiding it from the prompt completely
-[package]
-disabled = true
-add_newline = true
-
+# [package]
 [character]
 vicmd_symbol = "[█](bold yellow) "
 success_symbol = "[➜](bold green)" # The "success_symbol" segment is being set to "➜" with the color "bold green"
@@ -74,6 +71,9 @@ deleted = " 🗑  "
 # Language Environments
 [package]
 style = "bold fg:#5E5E5E"
+disabled = true
+add_newline = true
+
 
 [python]
 style = "bold fg:#5E5E5E"
