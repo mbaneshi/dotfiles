@@ -25,7 +25,7 @@ set -x PATH $PATH $GOPATH/bin
 
 fish_vi_key_bindings
 
-function fish_greeting
+function fish_greetinga
     # echo Hello friend!
     # echo The time is (set_color yellow; date +%T; set_color normal) and this machine is called $hostname
   echo ⠀(set_color yellow)⠀⠀⣤⣤⠀⠀(set_color normal)⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣾⣿⡟⠀⠀⠀⠀⠀⠀⠀⠀⠀

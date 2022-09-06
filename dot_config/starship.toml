@@ -15,7 +15,6 @@ add_newline = true
 
 [character]
 vicmd_symbol = "[█](bold yellow) "
-success_symbol = "[█](bold #CC59B0) "
 error_symbol = "[█](bold red) "
 format = """
 [╔══════════════════════════════════════$symbol](fg:#CC59B0)
