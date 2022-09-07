@@ -28,6 +28,17 @@ set -x GOPATH /users/Mehdi/go
 # add the go bin path to be able to execute our programs
 set -x PATH  /usr/local/go/bin 
 
+
+set -x  GOROOT $(brew --prefix golang)/libexec
+ set -x PATH $PATH:${GOPATH}/bin:${GOROOT}/bin
+
+
+
+
+
+
+
+
 fish_vi_key_bindings
 
 function fish_greetinga
