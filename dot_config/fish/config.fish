@@ -15,12 +15,18 @@ set -gx LDFLAGS "-L/usr/local/opt/llvm/lib"
 
   mcfly init fish | source
 
-set -x GOROOT  /usr/local/go
-set -x PATH $PATH $GOROOT/bin
 
-set -x GOPATH $HOME/golibs
-set -x PATH $PATH $GOPATH/bin
+# config file
+# vim ~/.config/fish/config.fish
 
+# reload the config
+# source ~/.config/fish/config.fish
+
+# set the workspace path
+set -x GOPATH /users/Mehdi/go
+
+# add the go bin path to be able to execute our programs
+set -x PATH $PATH /usr/local/go/bin $GOPATH/bin
 
 fish_vi_key_bindings
 
