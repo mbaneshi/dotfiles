@@ -23,21 +23,18 @@ set -gx LDFLAGS "-L/usr/local/opt/llvm/lib"
 # source ~/.config/fish/config.fish
 
 # set the workspace path
-#set -x GOPATH /users/Mehdi/go
+set -x GOPATH /users/Mehdi/go
 
 # add the go bin path to be able to execute our programs
-#set -x PATH  /usr/local/go/bin 
+set -x PATH  /usr/local/go/bin 
 
 
-#set -x  GOROOT $(brew --prefix golang)/libexec
- #set -x PATH $PATH:${GOPATH}/bin:${GOROOT}/bin
+set -x  GOROOT $(brew --prefix golang)/libexec
+ set -x PATH $PATH:$GOPATH/bin:$GOROOT/bin
 
 
- set -x GOROOT  /usr/local/go
-set -x PATH $PATH $GOROOT/bin
 
-set -x GOPATH $HOME/golibs
-set -x PATH $PATH $GOPATH/bin
+
 
 
 
