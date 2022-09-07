@@ -26,7 +26,7 @@ set -gx LDFLAGS "-L/usr/local/opt/llvm/lib"
 set -x GOPATH /users/Mehdi/go
 
 # add the go bin path to be able to execute our programs
-set -x PATH $PATH /usr/local/go/bin $GOPATH/bin
+set -x PATH  /usr/local/go/bin 
 
 fish_vi_key_bindings
 
