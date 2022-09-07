@@ -27,27 +27,6 @@ set -x GOPATH /users/Mehdi/go
 
 # add the go bin path to be able to execute our programs
 set -x PATH  /usr/local/go/bin 
-
-function la --wraps=ls --wraps=exa --description 'List contents of directory using exa tree'
-  exa --grid --icons -a --long --header --accessed $argv
-end
-
-function ll --wraps=ls --wraps=exa --description 'List contents of directory using exa grid'
-  exa --tree --level=1 --long --header --accessed $argv
-end
-
-function lla --wraps=ls --wraps=exa --description 'List contents of directory using exa grid'
-  exa --tree --level=1 -a --long --header --accessed $argv
-end
-
-function lll --wraps=ls --wraps=exa --description 'List contents of directory using exa grid'
-  exa --tree --level=2 -a --long --header --accessed $argv
-end
-
-function llll --wraps=ls --wraps=exa --description 'List contents of directory using exa grid'
-  exa --tree --level=3 -a --long --header --accessed $argv
-end
-
 #starship init fish | source
 
 #zoxide init fish | source
